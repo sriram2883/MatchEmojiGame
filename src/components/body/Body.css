@@ -1,0 +1,31 @@
+.Body{
+    height: 70vh;
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    width: 60%;
+}
+
+.temp{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    width: 60%;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 4px 4px 8px 8px rgba(255, 255, 255, 0.2);
+    width: 50px;
+    height: 50px;
+
+}
